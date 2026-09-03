@@ -1,0 +1,22 @@
+# Pafuli Studio
+
+> Pafuli Studio is the games and interactive practice operated by Studio Pafuli Inc. in Montréal. It creates original games and takes on selected game-development collaborations.
+
+Canonical site: https://pafuli.studio/
+French site: https://pafuli.studio/fr/
+Parent organization: https://pafu.li/
+
+## Original games
+
+- Lock On: an endless-flight game in development. https://pafuli.studio/games/lock-on
+- Signal Garden: a working title for a contemplative idle systems game in development. https://pafuli.studio/games/signal-garden
+
+No game platform, store, or release-date information is confirmed unless it appears on the relevant game page.
+
+## Selected collaboration areas
+
+- Game creation and co-development
+- Player identity, onboarding, saves, leaderboards, progression data, and lightweight backend systems
+- Technical release planning and store or platform preparation for selected projects
+
+Pafuli Studio does not present itself as a separate legal entity from Studio Pafuli Inc.
