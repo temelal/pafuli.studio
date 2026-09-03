@@ -3,10 +3,8 @@ export const siteConfig = {
   legalName: "Studio Pafuli Inc.",
   url: "https://pafuli.studio",
   parentUrl: "https://pafu.li",
-  email: "",
+  email: "t@pafuli.studio",
 } as const;
-
-export const hasEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(siteConfig.email);
 
 export function assetPath(path: string) {
   return `${process.env.PAGES_BASE_PATH ?? ""}${path}`;

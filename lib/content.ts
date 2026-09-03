@@ -24,7 +24,6 @@ export const copy = {
     collaborate: "Work with the studio",
     about: "About",
     navContact: "Studio contact",
-    share: "Share an idea",
     back: "Back to Pafuli Studio",
     eyebrow: "Independent game studio · Montréal",
     titleBefore: "Games with a",
@@ -79,8 +78,6 @@ export const copy = {
     contactTitle: "Share the premise. We’ll help shape what comes next.",
     contactBody:
       "Send the idea, prototype, unfinished build, or system you need. We will begin by deciding whether there is a clear piece of work we can responsibly take on together.",
-    contactPending: "Studio contact details are being prepared.",
-    contactButton: "Studio email coming soon",
     parentLink: "Visit Pafuli",
     legal: "Pafuli Studio is a games and interactive practice operated by Studio Pafuli Inc.",
     privacy: "Privacy",
@@ -96,7 +93,6 @@ export const copy = {
     collaborate: "Collaborer avec le studio",
     about: "À propos",
     navContact: "Coordonnées du studio",
-    share: "Partager une idée",
     back: "Retour à Pafuli Studio",
     eyebrow: "Studio de jeux indépendant · Montréal",
     titleBefore: "Des jeux avec un",
@@ -151,8 +147,6 @@ export const copy = {
     contactTitle: "Partagez la prémisse. Façonnons la suite ensemble.",
     contactBody:
       "Présentez l’idée, le prototype, la version inachevée ou le système requis. Nous commencerons par déterminer s’il existe un travail clair que nous pouvons prendre en charge ensemble de façon responsable.",
-    contactPending: "Les coordonnées du studio sont en préparation.",
-    contactButton: "Adresse du studio bientôt disponible",
     parentLink: "Visiter Pafuli",
     legal: "Pafuli Studio est une pratique de jeux et d’expériences interactives exploitée par Studio Pafuli Inc.",
     privacy: "Confidentialité",

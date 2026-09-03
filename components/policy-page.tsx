@@ -25,12 +25,12 @@ export function PolicyPage({ locale, type }: { locale: Locale; type: "privacy" |
       ? [
           ["Notre objectif", "Pafuli Studio vise une expérience conforme aux principes WCAG 2.2 AA, utilisable au clavier, structurée sémantiquement et compatible avec la réduction des mouvements."],
           ["Images et médias", "Les images de jeu informatives comprennent des textes de remplacement. Toute future bande-annonce devra comporter des sous-titres et une solution de rechange textuelle."],
-          ["Amélioration", "Un canal de rétroaction sur l’accessibilité sera publié avec les coordonnées générales du studio."],
+          ["Amélioration", "Les commentaires sur l’accessibilité sont les bienvenus à t@pafuli.studio. Nous proposerons une solution de rechange raisonnable lorsque possible."],
         ]
       : [
           ["Our aim", "Pafuli Studio aims for a WCAG 2.2 AA experience that works by keyboard, uses semantic structure, and respects reduced-motion preferences."],
           ["Images and media", "Informative game images include alternative text. Any future trailer will require captions and a text alternative."],
-          ["Improvement", "An accessibility feedback channel will be published with the studio’s general contact details."],
+          ["Improvement", "Accessibility feedback is welcome at t@pafuli.studio. We will offer a reasonable alternative where possible."],
         ];
 
   return (

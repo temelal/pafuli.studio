@@ -20,3 +20,5 @@ No game platform, store, or release-date information is confirmed unless it appe
 - Technical release planning and store or platform preparation for selected projects
 
 Pafuli Studio does not present itself as a separate legal entity from Studio Pafuli Inc.
+
+Public contact: mailto:t@pafuli.studio

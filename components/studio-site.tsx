@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GameArtwork } from "./game-artwork";
 import { JsonLd } from "./json-ld";
 import { copy, gameHref, games, type Locale } from "@/lib/content";
-import { hasEmail, siteConfig } from "@/lib/site-config";
+import { siteConfig } from "@/lib/site-config";
 
 export function StudioHeader({ locale, alternateHref }: { locale: Locale; alternateHref?: string }) {
   const t = copy[locale];
@@ -37,6 +37,7 @@ export function StudioFooter({ locale }: { locale: Locale }) {
           <p>{t.legal}</p>
         </div>
         <div className="footer-links">
+          <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
           <a href={siteConfig.parentUrl}>{t.parentLink} ↗</a>
           <Link href={locale === "fr" ? "/fr/confidentialite" : "/privacy"}>{t.privacy}</Link>
           <Link href={locale === "fr" ? "/fr/accessibilite" : "/accessibility"}>{t.accessibility}</Link>
@@ -61,6 +62,7 @@ export function StudioSite({ locale }: { locale: Locale }) {
       "@id": `${siteConfig.url}/#organization`,
       name: siteConfig.legalName,
       url: siteConfig.url,
+      email: siteConfig.email,
       brand: { "@id": `${siteConfig.url}/#brand` },
     },
     {
@@ -217,14 +219,7 @@ export function StudioSite({ locale }: { locale: Locale }) {
         <p className="eyebrow">{t.contactEyebrow}</p>
         <h2 id="contact-title">{t.contactTitle}</h2>
         <p>{t.contactBody}</p>
-        {hasEmail ? (
-          <a className="ink-button" href={`mailto:${siteConfig.email}`}>{t.share} ↗</a>
-        ) : (
-          <div className="pending-contact" aria-label={t.contactPending}>
-            <strong>{t.contactButton}</strong>
-            <small>{t.contactPending}</small>
-          </div>
-        )}
+        <a className="ink-button" href={`mailto:${siteConfig.email}`}>{siteConfig.email} ↗</a>
       </section>
       </main>
 

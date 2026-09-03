@@ -13,7 +13,7 @@ The site uses Next.js static export. `npm run verify` runs linting, TypeScript c
 
 ## Before launch
 
-- Add the studio email in `lib/site-config.ts` when it is ready for publication.
+- Public studio contact is `t@pafuli.studio`; the site has no contact form or file upload.
 - Add confirmed store, video, or platform links only on the corresponding game page.
 - Point the apex domain `pafuli.studio` to GitHub Pages and verify the custom domain in repository settings.
 - Update the reviewed date when legal or accessibility copy changes materially.
