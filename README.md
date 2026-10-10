@@ -27,7 +27,11 @@ Pafuli Studio is the public website for the games and interactive practice opera
 
 ## Screenshots
 
-No screenshot has been added yet.
+These are concept artworks, not screenshots of finished products.
+
+| Lock On concept | Signal Garden concept |
+| - | - |
+| ![Lock On concept artwork](public/images/lock-on-concept.webp) | ![Signal Garden concept artwork](public/images/signal-garden-concept.webp) |
 
 ## Platform and Technology
 
